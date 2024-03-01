@@ -24,7 +24,7 @@ export const tokensData:MyObject= {
       address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       decimals: 18,
     },
-    "Direct Private Offers":{
+    "DPOSVG":{
         symbol:"DPOSVG",
         logo:"https://i.imgur.com/HKQCJfX.png",
         address:"0x7dA687932b7B436A2297161a12F0d0C9B69aF3fe",
