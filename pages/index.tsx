@@ -363,6 +363,12 @@ function Home({ apikey,clientID }: PROPS) {
     </RootLayout>
     <Note>
       <div className="w-fit mx-auto space-y-6 my-4">
+      <h1 className="text-4xl font-bold">
+          Buy <span className="text-green-400">DPOSVG</span> tokens using via fiat
+        </h1>
+        <p>Price: $40 CAD per token, less 13% discount to market = $34.82 CAD</p>
+        <HomeFiat clientID={clientID} />
+
      <h1 className="text-4xl font-bold">
           Buy <span className="text-green-400">DPOSVG</span> tokens using crypto
         </h1>
