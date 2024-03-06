@@ -255,7 +255,7 @@ function Home({ apikey,clientID }: PROPS) {
         }}
       >
         <div className={hm.Container}>
-          <Typewriter text="LAYER II Decentralized Blockchain Ecosystem for Issuance of Digital Asset Securities" />
+          <Typewriter text="LAYER II Decentralized Blockchain Ecosystem for Issuance of Digital Asset Securities_" />
           <section className={hm.swapContainer}>
             <section className={hm.fromSwapContainer}>
               <div>
@@ -367,7 +367,7 @@ function Home({ apikey,clientID }: PROPS) {
         <HomeFiat clientID={clientID} />
 
      <h1 className="text-4xl font-bold">
-          Buy <span className="text-green-400">DPOSVG</span> tokens using crypto
+          Buy <span className="text-green-400">DPOSVG</span> tokens with crypto
         </h1>
         <h2 className="text-md my-4 text-2xl">DPO Global LLC: Tokens Available Here</h2>
         <p>Price: $40 USD per token, less 13% discount to market = $34.82</p>
