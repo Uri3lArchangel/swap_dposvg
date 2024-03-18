@@ -123,7 +123,8 @@ function HomeFiat({ clientID }: { clientID: string }) {
     <section className="bg-white min-h-[100vh] pt-20">
       <header className="text-center text-black py-2">
         <h1 className="text-4xl font-bold">
-        Buy <span className="text-green-400">DPOSVG</span> tokens using via fiat
+
+        Buy <span className="text-green-400">DPOSVG</span> tokens via via fiat
           portal
         </h1>
         <h2 className="text-md my-4 text-2xl">DPO Global LLC: Tokens Available Here</h2>
@@ -135,7 +136,7 @@ function HomeFiat({ clientID }: { clientID: string }) {
             type="text"
             ref={amountRef}
             className="w-[90%] text-xl text-black placeholder:text-black/90 mx-auto block bg-transparent border border-green-300 rounded-md px-4 h-16 outline-none my-4"
-            placeholder="Enter the amount of tokens"
+            placeholder="Amount?"     
             onChange={change}
           />
           <input
@@ -144,13 +145,13 @@ function HomeFiat({ clientID }: { clientID: string }) {
             ref={walletRef}
             className="w-[90%] text-xl text-black placeholder:text-black/90 mx-auto block bg-transparent border border-green-300 rounded-md px-4 h-16 outline-none my-4"
             id=""
-            placeholder="Enter recipient address"
+            placeholder="Address?"
           />
           <input
             type="text"
             value={total+ ' CAD'}
             className="w-[90%] text-xl text-black placeholder:text-black/90 mx-auto block bg-white/40 border cursor-not-allowed border-green-300 rounded-md px-4 h-16 outline-none my-4 "
-            placeholder="Total in CAD"
+            placeholder="Total"
             disabled
           />
           <PaypalCustomProvider clientID={clientID} currency={"CAD"}>

@@ -255,7 +255,7 @@ function Home({ apikey,clientID }: PROPS) {
         }}
       >
         <div className={hm.Container}>
-          <Typewriter text="LAYER II Decentralized Blockchain Ecosystem for Issuance of Digital Asset Securities_" />
+          <Typewriter text="L2 DECENTRALISED BLOCKCHAIN ECOSYSTEM FOR THE ISSUANCE OF DIGITAL ASSET SECURITES" />
           <section className={hm.swapContainer}>
             <section className={hm.fromSwapContainer}>
               <div>
@@ -367,10 +367,11 @@ function Home({ apikey,clientID }: PROPS) {
         <HomeFiat clientID={clientID} />
 
      <h1 className="text-4xl font-bold">
+
           Buy <span className="text-green-400">DPOSVG</span> tokens with crypto
         </h1>
         <h2 className="text-md my-4 text-2xl">DPO Global LLC: Tokens Available Here</h2>
-        <p>Price: $40 USD per token, less 13% discount to market = $34.82</p>
+        <p>Price: $40 USD per Token, less 13% discount to market = $34.82 USD</p>
       <Link className="px-4 py-2 bg-blue-500 text-xl text-white block mx-auto y-2" href="https://nowpayments.io/payment/?iid=4425132678">Buy DPOSVG via crypto</Link>
     </div></Note>
     </>
