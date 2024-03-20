@@ -368,11 +368,11 @@ function Home({ apikey,clientID }: PROPS) {
 
      <h1 className="text-4xl font-bold">
 
-          Buy <span className="text-green-400">DPOSVG</span> Tokens Via crypto!
+          Buy <span className="text-green-400">DPOSVG</span> Tokens via Crypto!
         </h1>
         <h2 className="text-md my-4 text-2xl">DPO Global LLC: Tokens Available Here</h2>
         <p>Price: $40 USD per Token, less 13% discount to market = $34.82 USD</p>
-      <Link className="px-4 py-2 bg-blue-500 text-xl text-white block mx-auto y-2" href="https://nowpayments.io/payment/?iid=4425132678">Buy DPOSVG via crypto</Link>
+      <Link className="px-4 py-2 bg-red-500 text-xl text-white block mx-auto y-2" href="https://nowpayments.io/payment/?iid=4425132678">Buy DPOSVG Tokens via Crypto!</Link>
     </div></Note>
     </>
   );
